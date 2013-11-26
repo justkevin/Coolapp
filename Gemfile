@@ -21,9 +21,12 @@ gem 'aws-sdk', '~> 1.28.1'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 gem 'paperclip', '~>3.5.2'
+gem 'jquery-turbolinks'
+
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 gem 'devise', '~> 3.2.1'
+gem 'masonry-rails', '~>0.2.0'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 group :development, :test do
