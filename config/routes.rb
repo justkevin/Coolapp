@@ -2,7 +2,7 @@ Onemonthrails::Application.routes.draw do
   resources :pins
 
   devise_for :users
-  root "pages#home"
+  root "pins#index"
   get "about" => "pages#about"
   get "contact_us" => "pages#contact_us"
   # The priority is based upon order of creation: first created -> highest priority.
